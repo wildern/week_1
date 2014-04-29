@@ -10,7 +10,7 @@ describe "hello" do
     Hello.new.greet('Azamat').should == "Hello, Azamat!"
   end
 
-	it "says hello" do
-		Hello.new.hello().should == "Hello!"
-	end
+  it "says hello" do
+    Hello.new.hello().should == "Hello!"
+  end
 end
