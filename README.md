@@ -1,4 +1,5 @@
-== Assignment - 1
+Assignment - 1
+==
 
 In this week you were introduced to Ruby programming language.
 As an asssinment you have to write simple "Hello, World!" program.
