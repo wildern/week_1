@@ -1,6 +1,6 @@
 def greet(variable)
 =begin
-	("string") -> "string"
+	(string) -> string
 	
 	this method has to accept string
 	and return string
@@ -14,7 +14,7 @@ end
 
 def hello
 =begin
-	() -> "string"
+	() -> string
 
 	this method does not have to accept
 	any arguments and it has to return
