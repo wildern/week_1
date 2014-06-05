@@ -1,10 +1,27 @@
-# write two methods greet() and hello()
-# greet have to accept variable and return
-# for instance "Hello, World"
-# hello method doesnt have to accept anything
-# just return "Hello"
+def greet(variable)
+=begin
+	("string") -> "string"
+	
+	this method has to accept string
+	and return string
+
+	>  greet("Azamat")
+	=> "Hello, Azamat!"
+=end
+	# write your code here
+end
 
 
-# write your code here
-def some_method
+def hello
+=begin
+	() -> "string"
+
+	this method does not have to accept
+	any arguments and it has to return
+	string
+
+	>  hello()
+	=> "Hello!"
+=end
+	# write your code here
 end

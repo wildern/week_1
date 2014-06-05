@@ -1,16 +1,21 @@
 require "rspec"
 require "./hello"
 
-describe "hello" do
-  it "should return 'Hello, World!'" do
-    greet('World').should == "Hello, World!"
+describe "'Hello, World' app" do
+  context "greet()" do
+    it "should return 'Hello, World!' if it gets 'World' as an argument" do
+	  greet('World').should == "Hello, World!"
+	end
+
+    it "should return 'Hello, Azamat!' if it gets 'Azamat' as an argument" do
+      greet('Azamat').should == "Hello, Azamat!"
+    end
   end
 
-  it "should return 'Hello, Azamat!'" do
-    greet('Azamat').should == "Hello, Azamat!"
-  end
 
-  it "says hello" do
-    hello().should == "Hello!"
+  context "hello()" do
+    it "says hello" do
+      hello().should == "Hello!"
+    end
   end
 end
